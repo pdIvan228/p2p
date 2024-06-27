@@ -1,0 +1,15 @@
+a = 10
+b = 5
+
+print("До обмена:")
+print("a =", a)
+print("b =", b)
+
+a = a + b
+b = a - b
+a = a - b
+
+print("После обмена:")
+print("a =", a)
+print("b =", b)
+
